@@ -70,13 +70,19 @@ Do not use commands like /time set day, as this will reset the day counter shown
 6. GT Ore Predictor
 
 Enter a seed (this function caches your seed input. The cache will be cleared when you exit the world to reduce repeated input).
+
 Set the radius, select the ore vein you want to find, and this function will show you its location.
+
 The third column is a search bar, not a selection bar.
+
 Selected ore veins will be highlighted in yellow. You can also choose ---scan all veins--- to display all vein types within the range.
 
 Notes:
+
 1.Only supports the Overworld and the Nether.
+
 2.GT ore veins attempt to generate multiple times due to terrain. This function only simulates the first generation result, so it is not 100% accurate. Use this only if you cannot find the veins after trying hard
+
 3.Use the Prospector's Scanner later. This feature will not be useful for long
 
 Mica, Manganese, and Quartz can be really hard to find :(
@@ -90,7 +96,9 @@ Fairly straightforward; no further explanation needed.
 You can bind a key to use this function.
 
 Notes:
+
 1.This only ignore your mouse and movement inputs. It does not block other inputs, such as camera rotation or interactions with other mods—for example, pressing V to attach items to blocks.
+
 2.There are no restrictions in single-player, but this function is limited in multiplayer. Read 'Commands & Server Rules'
 
 8. TargetScanner
@@ -107,36 +115,64 @@ Its language depends on your game's language before you open the game.If you use
 To make the list English, set your language to English, close the game completely, then open it again.The same goes for changing back to Chinese.
 This rule only affects the list, because the list initializes only once when the game starts.
 Other mod text in the game will update when you change the language in-game.
+
 Whitelist Details:
+
 1.Single Block Group
+
 Gypsum->OW
+
 Coal->OW
+
 Diamond->OW
+
 Lapis->OW
+
 Gold->OW
+
 Redstone->OW
+
 Mica->OW
+
 RubberTreeLeaves(IC2 rubber leaves)
+
 WispyCotton(Witchery)
+
 2.Multiple Block Group 
+
 Manganese->OW,Nether(MnO2 ore,not Mn ore, don't worry)
+
 Quartz->Nether (All ores contained in the Nether Quartz Vein)
+
 Calcite->OW,ET Future
+
 Iron->OW (Common Ore Types, not including Tantalite)
+
 Copper->OW (Common Ore Types)
+
 Tin->OW (Common Ore Types)
+
 Healing Axe Tasks->(All items needed for the Hunger No More quest)
+
 Shimmering Mushroom->(all color)
+
 Dungeon->(loot game and galacticraft)
+
 Beehives->(Forestry/ExtraBees /MagicBees)
 
 Notes
+
 1.You must wait 1 second after turning the tool on or off.
+
 2.This tool works freely in single-player, but has limits in multiplayer. Read 'Commands & Server Rules'
 
 9. JourneyMap Teleport
+
 First, open the config menu to bind a key.Then manually enable the function.Next, open the journey map and press the bound key.You will be teleported to the location your mouse is pointing to.
-Note: The bound key is only used to trigger teleportation, not to turn the function on or off.
+
+Note: 
+
+The bound key is only used to trigger teleportation, not to turn the function on or off.
 To toggle this function, you must click the button in the config menu manually.
 
 ⌨️ Commands & Server Rules
@@ -150,17 +186,21 @@ Multiplayer: Freecam and Target Scanner are locked by default.(The Target Scanne
 To unlock them, this mod must also be installed on the server, and an admin (permission level 2) can run these commands:
 
 /makegtnheasier list
+
 View the authorization status of all features.
 
 /makegtnheasier unlock <feature>
+
 Unlock sensitive features (supports: freecam, target_scanner).
 
 /makegtnheasier lock <feature>
+
 Re-lock a feature.
 
 Tip: For non-sensitive features only (such as auto tool switch, LootGame helpers), installing the mod only on the client is enough.
 
 ⚠️ Important Notes
+
 This mod does not modify vanilla game logic, nor add new items/blocks.If you encounter any bugs, simply remove the mod to restore normal gameplay — your world will not be corrupted.
 
 Copyright & Distribution:
@@ -175,11 +215,17 @@ This mod is for learning and entertainment purposes only.The author takes no res
 
 
 💖 Acknowledgements
+
 English: Special thanks to the GTNH team for their incredible dedication. More importantly, we appreciate the immense effort put into maintaining the 1.7.10 development environment, keeping this classic version of Minecraft alive and thriving.
 
 Changelog
+
 1.0.1
+
 - Added support for Roguelike Dungeons to the structure location feature. You can now use this tool to predict where they will generate.
+
 - Added quick teleport functionality for Journey Map. See the Bilibili video for details.
+
 - Added language files. The mod now supports English.
+
 - Fixed minor bugs from version 1.0.0.
