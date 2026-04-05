@@ -54,7 +54,7 @@ Make GTNH Easier
 
 ![MS](ReadmeResource/MS.png)
 
-4. 史莱姆岛定位 / 星系地牢预测 / 冒险地牢预测
+4. 史莱姆岛定位 / 星系地牢预测 / 冒险地牢预测 / LootGame预测
 
 开启这些功能后会进入子页面，操作逻辑一致：手动输入地图种子，即可获取结构坐标。
 
@@ -232,3 +232,9 @@ English: Special thanks to the GTNH team for their incredible dedication. More i
 1.0.1->新增了lang文件，现在可以支持英文了
 
 1.0.1->修复了1.0.0的一点点小bug
+
+1.0.2->现在史莱姆空岛预测和星系地牢的预测不再只输出一个最近的点了，而是会输出最近的五个点，如同其他的预测脚本一样
+
+1.0.2->新增了寻找LootGame的功能
+
+1.0.2->修复了1.0.1中的一个小bug，进入预测冒险地牢的界面时，会意外的开关“旅行地图传送”功能的BUG

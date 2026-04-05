@@ -54,7 +54,7 @@ The result is obtained by calculation, the feature does not know the real answer
 
 ![MS](ReadmeResource/MS.png)
 
-4. Slime Island Locator / Galactic Dungeon Predictor / Roguelike Dungeon predictor
+4. Slime Island Locator / Galactic Dungeon Predictor / Roguelike Dungeon predictor / LootGame Scanner
 
 After enabling these features, you will enter a subpage.
 These features work similarly: you enter a seed manually, and the structure coordinates will be shown to you.
@@ -231,3 +231,11 @@ Changelog
 - Added language files. The mod now supports English.
 
 - Fixed minor bugs from version 1.0.0.
+
+1.0.2
+
+- The Slime Island Locator and Galactic Dungeon Predictor now display the five nearest points instead of only the closest one, aligning with the behavior of other prediction tools.
+
+- Added the LootGame Scanner feature for locating LootGame structures.
+
+- Fixed a minor bug in v1.0.1 where opening the Roguelike Dungeon prediction interface would toggle the JourneyMap Teleport function.
