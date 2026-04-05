@@ -61,6 +61,8 @@ These features work similarly: you enter a seed manually, and the structure coor
 Sometimes the structure entrance is not at the calculated point, but it is nearby. Keep looking for it.
 Besides, the structure may be incompletely generated or uninhabitable due to terrain issues. This feature cannot predict these situations.
 
+Galactic Dungeons: Tested on Moon and Mars only, If other planets use the same generation logic as the Moon and Mars, the feature should detect dungeons there too.
+
 5. Thaumic Ingot Predictor
 
 Enter the in-game day shown in the top-left corner,and it will tell you when to use Research Notes to get the research note for Thaumium Ingot.
